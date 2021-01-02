@@ -1,0 +1,5 @@
+.lead__trail {
+  object-fit: contain;
+  object-position: center;
+  max-width: 100%;
+}
