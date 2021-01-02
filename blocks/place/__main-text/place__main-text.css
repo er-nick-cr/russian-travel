@@ -1,7 +1,7 @@
 .place__main-text {
 	display: grid;
 	grid-template-columns: repeat(1, minmax(min-content-max-content));
-	grid-template-rows: repeat(2, minmax(min-content-max-content));;
+	grid-template-rows: repeat(2, minmax(min-content-max-content));
 	row-gap: 26px;
   box-sizing: border-box;
 }

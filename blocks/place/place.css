@@ -2,7 +2,7 @@
 	display: grid;
 	grid-template-columns: fit-content(460px) fit-content(484px);
 	grid-template-rows: repeat(2, minmax(min-content, max-content));
-	column-gap: 40px; 
+	column-gap: 40px;
 	row-gap: 48px;
 }
 
@@ -11,7 +11,7 @@
 		display: grid;
 	  grid-template-columns: fit-content(440px) fit-content(484px);
 		grid-template-rows: repeat(2, minmax(min-content, max-content));
-		column-gap: 40px; 
+		column-gap: 40px;
 	 row-gap: 48px;
   }
 }
@@ -21,7 +21,7 @@
 		display: grid;
 	  grid-template-columns: fit-content(340px) fit-content(484px);
 		grid-template-rows: repeat(2, minmax(min-content, max-content));
-		column-gap: 40px; 
+		column-gap: 40px;
 		row-gap: 48px;
   }
 }
@@ -32,7 +32,7 @@
 		display: grid;
 	  grid-template-columns: minmax(min-content, max-content);
 		grid-template-rows: repeat(auto-fill, minmax(min-content, max-content));
-		column-gap: 40px; 
+		column-gap: 40px;
 		row-gap: 48px;
   }
 }
