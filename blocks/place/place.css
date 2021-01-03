@@ -9,20 +9,20 @@
 @media screen and (max-width: 1060px) and (min-width: 987px) {
 	.place {
 		display: grid;
-	  grid-template-columns: fit-content(440px) fit-content(484px);
+	  	grid-template-columns: 440px 456px;
 		grid-template-rows: repeat(2, minmax(min-content, max-content));
-		column-gap: 40px;
-	 row-gap: 48px;
+		column-gap: 32px;
+	 	row-gap: 48px;
   }
 }
 
 @media screen and (max-width: 986px) and (min-width: 768px) {
 	.place {
 		display: grid;
-	  grid-template-columns: fit-content(340px) fit-content(484px);
+	  	grid-template-columns: fit-content(340px) fit-content(352px);
 		grid-template-rows: repeat(2, minmax(min-content, max-content));
-		column-gap: 40px;
-		row-gap: 48px;
+		column-gap: 28px;
+		row-gap: 40px;
   }
 }
 

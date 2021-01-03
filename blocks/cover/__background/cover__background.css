@@ -1,6 +1,14 @@
 .cover__background {
-	width: 100%;
-	grid-column: 1;
-	grid-row: 1;
-	object-position: center;
+	display: grid;
+	max-width: 1184px;
+	padding-bottom: 62.5%;
+	height: 0;
+	grid-template-columns: 1fr;
+	text-decoration: none;
+	background-image: url(../../../images/cover-trains.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	box-sizing: border-box;
 }

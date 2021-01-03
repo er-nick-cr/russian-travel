@@ -1,14 +1,3 @@
 .cover {
-	display: grid;
 	max-width: 1184px;
-	grid-template-columns: 100%;
-	padding-top: 92px;
-	text-decoration: none;
-}
-
-@media screen and (max-width: 500px) {
-	.cover{
-		padding-top: 66px;
-	}
-	
 }

@@ -3,4 +3,5 @@
 	grid-template-columns: repeat(2, max-content);
 	margin: 0;
 	column-gap: 18px;
+	list-style: none;
 }

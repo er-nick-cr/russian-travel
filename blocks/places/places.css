@@ -1,6 +1,6 @@
 .places {
-  width: 100%;
-  padding: 92px 0 0 0;
+  max-width: 984px;
+  padding: 92px 0 92px 0;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -8,24 +8,25 @@
   align-items: center;
   row-gap: 80px;
   box-sizing: border-box;
+  justify-self: center  ;
 }
 
 @media screen and (max-width: 1060px) {
   .places {
-    padding: 92px 48px 0 48px;
+    padding: 92px 48px 92px 48px;
   }
 }
 
 @media screen and (max-width: 984px) {
 	.places {
-    padding: 88px 24px 0 24px;
+    padding: 88px 24px 90px 24px;
 	}
 	
 }
 
 @media screen and (max-width: 400px) {
 	.places {
-    padding: 64px 0 0 0;
+    padding: 64px 0 66px 0;
     row-gap: 50px;
 	}
 	
