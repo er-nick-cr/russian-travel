@@ -1,8 +1,7 @@
 .cover__background {
 	display: grid;
 	max-width: 1184px;
-	padding-bottom: 62.5%;
-	height: 0;
+	height: 740px;
 	grid-template-columns: 1fr;
 	text-decoration: none;
 	background-image: url(../../../images/cover-trains.jpg);
@@ -11,4 +10,10 @@
 	background-position: center;
 	position: relative;
 	box-sizing: border-box;
+}
+
+@media screen and (max-width: 1184px) {
+	.cover__background{
+		height: calc(100vw * 0.625);
+	}
 }
